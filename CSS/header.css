@@ -1,0 +1,44 @@
+.header {
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.header-menu a {
+  font-size: 1.125rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  color:white;
+  display: block;
+  border: 2px solid #141414;
+  transition: 2s
+}
+.header-menu a:hover {
+  border-bottom: 2px solid rgba(109, 182, 1, 0.966);
+  color: rgba(109, 182, 1, 0.966);
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .header .botao {
+    background: #313030;
+    border-radius: 6px;
+  }
+}

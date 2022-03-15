@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  font-family: 'Fire Sans', Arial, Helvetica, sans-serif;
+  color: #141414;
+  background: #141414;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+  color: white;
+}
+h3 {
+  color: #141414;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h2 {
+  max-width: 100%;
+  display: block;
+}
+
+.header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#141414;
+}
+
+.sub-titulo {
+  font-size: 8rem;
+  line-height: 1;
+  word-break: break-all;
+  text-transform: uppercase;
+  max-width: 5ch;
+}
+
+@media (max-width: 800px) { 
+  .sub-titulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
